@@ -4,11 +4,6 @@ import BusinessList from './components/BusinessList/BusinessList';
 import SearchBar from './components/SearchBar/SearchBar';
 import Yelp from './util/Yelp'
 
-// got warning message that this wasn't used.
-const business = {};
-
-const businesses = [];
-
 class App extends React.Component {
   constructor(props){
     super(props);
